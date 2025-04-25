@@ -1,0 +1,13 @@
+.btnHref {
+    text-decoration: none;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.781);
+    padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    transition: all 0.4s linear;
+
+    &:hover {
+        background-color: var(--fav-hover);
+    }
+}
